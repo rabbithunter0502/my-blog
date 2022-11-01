@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Duclt7's Personal Blog</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="https://img-c.udemycdn.com/organization_favicon/32x32/120522_c707.png">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/base.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap">
+      <link href="https://fonts.googleapis.com">
+      <link href="https://fonts.gstatic.com" crossorigin>
+   </head>
+   <body>
+      <!-- header -->
+      <header>
+         <div class="container">
+            <nav class="navbar">
+               <div>
+                  <div>
+                    <a href="/" class="logo">
+                      <img alt="FPT logo" src="https://img-c.udemycdn.com/organization/W_70/120522_c707.png" height="30px">
+                      <img alt="Shake hands free icon" src="https://cdn-icons-png.flaticon.com/512/786/786660.png" width="40" height="40" title="Shake hands free icon">
+                      <img alt="Udacity Logo" src="//s3-us-west-1.amazonaws.com/udacity-content/rebrand/svg/logo.min.svg" height="30px">
+                      </a>
+                  </div>
+               </div>
+               <ul class="btn-group-nav">
+                  <li>
+                     <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                     <a href="#" class="nav-link">About Me</a>
+                  </li>
+                  <li>
+                     <a href="#" class="nav-link">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- end header -->
+      <!-- content -->
+      <main>
+         <section class="biography">
+            <div class="container">
+               <div class="left">
+                  <h1 class="h1">
+                     Hi, I'm <b>Duclt7</b>
+                     <br>Web Developer
+                  </h1>
+                  <div class="btn-group">
+                     <a href="#" class="btn btn-primary">Contact Me</a>
+                     <a href="#" class="btn btn-secondary">About Me</a>
+                  </div>
+               </div>
+               <div class="right">
+                  <div class="pattern-background"></div>
+                  <div class="img-box">
+                     <img src="./assets/images/avatar.png" alt="Duclt7" class="duclt7-avatar">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main-content">
+            <div class="container">
+               <div class="blog">
+                  <h2 class="h2">Latest Blog Post</h2>
+                  <div class="blog-card-group" id="blog-card-group"></div>
+                  <button class="btn btn-primary btn-load-more" onclick="loadMore()">Load More</button>
+               </div>
+               <div class="aside">
+                <div class="contact">
+                  <h2 class="h2">Personal Information</h2>
+                  <div class="wrapper">
+                     <div class="img-box">
+                        <img src="../assets/images/avatar.png" height=100 alt="Duclt7" class="duclt7-avatar">
+                        <div>
+                           <h4 class="h4">DucLT</h4>
+                           <div class="bio">
+                              <span>Web Developer</span>
+                              <span>FPT software</span>
+                              <a href="mailto:duclt@abc.com">DucLT@abc.com</a>
+                           </div>
+                        </div>
+                     </div>
+                     <br>
+                     <p>
+                        I’m currently learning Everything 😊, but particularly ThreeJS and Web3 Technologies.
+                     </p>
+                     <ul class="social-icon">
+                        <li>
+                           <a href="#">
+                           <img src="../assets/images/facebook.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <img src="../assets/images/tiktok.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <img src="../assets/images/twitter.png">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+                  <div class="newsletter">
+                     <h2 class="h2">Newsletter</h2>
+                     <div class="wrapper">
+                        <p>
+                           Subscribe to keep up with the latest updates.
+                        </p>
+                        <form action="#">
+                           <input type="email" name="email" placeholder="Email Address" required>
+                           <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- end content -->
+      <!-- footer -->
+      <footer>
+         <div class="container">
+            <div class="wrapper">
+               <a href="#" class="footer-logo">
+               <img src="https://img-c.udemycdn.com/organization/W_70/120522_c707.png" alt="Duclt7's Blog Logo" width="150">
+               </a>
+               <p class="footer-text">
+                  Ask me about ReactJS, NextJS and Angular.
+               </p>
+            </div>
+            <div class="wrapper">
+               <p class="footer-title">Quick Links</p>
+               <ul>
+                  <li>
+                     <a href="#" class="footer-link">About me</a>
+                  </li>
+                  <li>
+                     <a href="#" class="footer-link">Contact with me</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="wrapper">
+               <p class="footer-title">Usefull link</p>
+               <ul>
+                  <li>
+                     <a href="https://reactjs.org/" class="footer-link">ReactJS</a>
+                  </li>
+                  <li>
+                     <a href="https://angular.io/" class="footer-link">Angular</a>
+                  </li>
+                  <li>
+                     <a href="https://nextjs.org/" class="footer-link">NextJS</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="copyright">
+            &copy; Copyright 2022 <a href="mailto:duclt@abc.com">Duclt7</a>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <script src="./script/index.js"></script>
+   </body>
+</html>

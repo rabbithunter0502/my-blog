@@ -1,0 +1,141 @@
+[
+    {
+       "id":1,
+       "topicImg":"./assets/images/post-1.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "React"
+       ],
+       "topicTitle":"Why component identifiers must be capitalized in React",
+       "linkDetail":"pages/post-details.html?id=1",
+       "topicContent":"In this article, we will investigate why component identifiers must be capitalized in React.",
+       "datetime":"7 April 2022",
+       "readingTime":"4",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":2,
+       "topicImg":"./assets/images/post-2.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "Dom",
+          "Html",
+          "Css"
+       ],
+       "topicTitle":"101 Javascript Critical Rendering Path",
+       "linkDetail":"pages/post-details.html?id=2",
+       "topicContent":"In this article, we will explore the process of the critical rendering path.",
+       "datetime":"14 March 2022",
+       "readingTime":"16",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":3,
+       "topicImg":"./assets/images/post-3.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "Decorators",
+          "JavaScript",
+          "Typescript"
+       ],
+       "topicTitle":"Attaching new behaviors through decorators in JavaScript",
+       "linkDetail":"pages/post-details.html?id=3",
+       "topicContent":"In this article, we will learn about decorators and two different techniques for their implementation - functioning and class-based.",
+       "datetime":"22 December 2021",
+       "readingTime":"7",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":4,
+       "topicImg":"./assets/images/post-4.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "JavaScript",
+          "Design-Patterns",
+          "Oop"
+       ],
+       "topicTitle":"Overview of OOP patterns implementation in JavaScript",
+       "linkDetail":"pages/post-details.html?id=4",
+       "topicContent":"Design Patterns need to be used for code that is highly maintainable, reusable and organised. Gang of Four comes with 23 unique design patterns, which can be used across platforms. Let's learn how Gang of Four can be implemented in JavaScript.",
+       "datetime":"3 February 2022",
+       "readingTime":"12",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":5,
+       "topicImg":"./assets/images/post-5.jpeg",
+       "topicImgAlt":"",
+       "topic":[
+          "React",
+          "Peformance",
+          "Web-Development"
+       ],
+       "topicTitle":"Boosting Your React App Performance with React Profiler",
+       "linkDetail":"pages/post-details.html?id=5",
+       "topicContent":"A guide to measuring and improving React Apps performance with React Profiler. Accompanied by a web app that makes it easy to follow along.",
+       "datetime":"9 February 2022",
+       "readingTime":"11",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":6,
+       "topicImg":"./assets/images/post-6.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "Webpack"
+       ],
+       "topicTitle":"Webpack: An in-depth introduction to SplitChunksPlugin",
+       "linkDetail":"pages/post-details.html?id=6",
+       "topicContent":"This article will give you a good introduction to one of the most used plugins in webpack's ecosystem - SplitChunksPlugin.",
+       "datetime":"21 February 2022",
+       "readingTime":"20",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":7,
+       "topicImg":"./assets/images/post-7.png",
+       "topicImgAlt":"",
+       "topic":[
+          "Angular",
+          "Dependency",
+          "Components"
+       ],
+       "topicTitle":"The controllers of component concept in Angular",
+       "linkDetail":"pages/post-details.html?id=7",
+       "topicContent":"The second part of how we organized the system of settings for all textfields in Taiga UI with the power of Dependency Injection in Angular.",
+       "datetime":"29 October 2021",
+       "readingTime":"7",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    },
+    {
+       "id":8,
+       "topicImg":"./assets/images/post-8.jpg",
+       "topicImgAlt":"",
+       "topic":[
+          "Webpack",
+          "JavaScript"
+       ],
+       "topicTitle":"Demistifying webpack's 'import function: using dynamic arguments",
+       "linkDetail":"pages/post-details.html?id=8",
+       "topicContent":"In this article we will learn about demistifying webpack's 'import' function: using dynamic arguments.",
+       "datetime":"28 October 2021",
+       "readingTime":"14",
+       "authorAvatar":"./assets/images/avatar-small.png",
+       "authorAvatarAlt":"Duclt7",
+       "authorName":"Duclt7"
+    }
+ ]

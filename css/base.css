@@ -1,0 +1,155 @@
+:root {
+	--bg-primary: 	#ffffff;
+	--bg-secondary: #f7f7f7;
+	--bg-tertiary: #667fea;
+
+	--text-primary: #2d3748;
+	--text-secondary: #728197;
+	--text-tertiary: #a0aec0;
+
+	--action-primary: 	#e1e7ef;
+	--action-secondary: #edf2f7;
+
+	--white: #ffffff;
+	--font-size-base: 0.85rem;
+	--font-size-h1: 1.875rem;
+	--font-size-h2: 1.5rem;
+	--font-size-h3: 1.25rem;
+	--font-size-h4: 0.875rem;
+	--font-size-h5: 0.75rem;
+	--py: 5rem;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* base font-size (0.85rem = 13.6px) */
+html {
+	font-family: "Inter", sans-serif;
+	font-size: var(--font-size-base);
+	line-height: 1.8;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-color: #e1e7ef;
+}
+
+body::-webkit-scrollbar-track {
+	background: #e1e7ef;
+}
+
+:focus {
+	outline-offset: 4px;
+}
+
+::-webkit-scrollbar {
+	width: 16px;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background: var(--bg-tertiary);
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img,
+button {
+	display: block;
+}
+
+a,
+span {
+	display: inline-block;
+}
+
+button {
+	font: inherit;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.h1,
+.h2,
+.h3,
+.h4 {
+	display: block;
+	color: var(--text-primary);
+}
+
+.h1 {
+	font-size: var(--font-size-h1);
+	font-weight: 900;
+}
+
+.h2 {
+	font-size: var(--font-size-h2);
+	font-weight: 700;
+}
+
+.h3 {
+	font-size: var(--font-size-h3);
+	font-weight: 700;
+}
+
+.h4 {
+	font-size: var(--font-size-h4);
+	font-weight: 700;
+}
+
+.text-sm {
+	font-size: var(--font-size-h4);
+}
+
+.text-tiny {
+	font-size: var(--font-size-h5);
+}
+
+.container {
+	margin-inline: auto;
+	margin: auto;
+	padding: 0 15px;
+}
+
+.btn {
+	min-width: 10rem;
+	border-radius: 100px;
+}
+
+.btn-primary {
+	background: var(--bg-tertiary);
+	color: var(--white);
+	padding: 0.7rem 1.2rem;
+    border: 2px solid var(--bg-tertiary);
+}
+
+.btn-primary:hover {
+	background: var(--bg-secondary);
+	color: var(--text-secondary);
+    border: 2px solid var(--bg-tertiary);
+}
+
+.btn-secondary {
+	background: var(--action-secondary);
+	color: var(--text-secondary);
+	padding: 0.6rem 1rem;
+	border: 2px solid var(--bg-tertiary);
+}
+
+.btn-secondary:hover {
+	border-color: var(--white);
+}
